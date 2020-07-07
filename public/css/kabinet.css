@@ -1,0 +1,102 @@
+.jarak-about {
+    margin-top: 66px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+@media screen and (max-width: 700px) {
+    .jarak-about {
+        margin-top: 50px;
+    }
+}
+
+.about {
+    background-color: #EFEFF1;
+    padding: 30px;
+    border: 1px solid #B3B3BB;
+    border-radius: 10px;
+}
+
+.about p {
+    text-align: justify;
+}
+
+.about h2 {
+    font-size: 50px;
+    font-weight: 900;
+    color: #B3B3BB;
+}
+
+.img-about {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.border-bawah {
+    border-bottom: solid 1px #B3B3BB;
+}
+
+.peta {
+    border: solid 1px #B3B3BB;
+}
+
+
+.hr-about {
+    border: 2px solid #B3B3BB;
+    width: 10%;
+}
+
+.background-image {
+    background: linear-gradient(rgba(255, 255, 255, 0.90), rgb(255, 255, 255, 0.90)),
+        url(../images/texture.jpg) repeat 0 0 / 12.5% auto !important;
+}
+
+.isi-about {
+    font-size: 18px;
+}
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 500px;
+    width: 100%;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 500px;
+    width: 100%;
+}
+
+.kabinet-logo img {
+    width: 100%;
+    height: auto;
+    /* max-height: 500px; */
+    max-width: 500px;
+}
+
+.kabinet-sto img {
+    width: 100%;
+    height: auto;
+    /* max-height: 600px; */
+    max-width: 500px;
+}
+
+.kabinet-sto p {
+    line-height: 2;
+    font-size: 18px;
+}
+
+.kabinet-sto h3 {
+    text-align: left;
+    border-bottom: solid 1px #1295C9;
+}
+
+.kabinet-logo p {
+    text-align: justify;
+    font-size: 18px;
+}
